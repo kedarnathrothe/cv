@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table,td,tr,th{
+            border: 2px solid rgb(0, 0, 0);
+            border-collapse: collapse;
+        }
+        table{
+            width: 50%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <center>
+
+    <!-- 1) Simple table -->
+    <!-- <table> contain <thead> and <tbody> and <tfoot>  -->
+    <!-- <tr></tr> -  reprsents a table row (normal) -->
+     <!-- <td></td>-  for table data -->
+    <table>
+        <caption>student data</caption>
+        <tr>
+           <td>kedar</td>
+           <td>IT</td>
+           <td>2003</td>
+        </tr>
+        <tr>
+            <td>Tushar</td>
+            <td>BCA</td>
+            <td>2003</td>
+        </tr>
+    </table>
+
+    <br>
+
+     <hr>
+     <br>
+    <!-- 2) tables with <tHead></tHead> -->
+    <!-- <th></th>--- is for table heading -->
+     
+
+    <table>
+        <caption>student data</caption>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>branch</th>
+                <th>id</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>kedar</td>
+                <td>IT</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>tushar</td>
+                <td>BCA</td>
+                <td>11</td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+</body>
+</html>
